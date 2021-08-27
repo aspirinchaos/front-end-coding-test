@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoryItem styles Image renders correctly 1`] = `
+.c0 {
+  max-width: 100%;
+  height: auto;
+}
+
+<img
+  class="c0"
+/>
+`;
+
+exports[`StoryItem styles ImageSide renders correctly 1`] = `
+.c0 {
+  padding: 5px;
+  width: 50%;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  Content
+</div>
+`;
+
+exports[`StoryItem styles Info renders correctly 1`] = `
+.c0 {
+  color: #8e8d8a;
+  font-family: Poppins,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+<div
+  class="c0"
+>
+  Content
+</div>
+`;
+
+exports[`StoryItem styles StoryContainer renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+@media (max-width:992px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1700px) {
+  .c0 {
+    width: 33%;
+  }
+}
+
+@media (max-width:600px) {
+  .c0 {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+<div
+  class="c0"
+>
+  Content
+</div>
+`;
+
+exports[`StoryItem styles TextSide renders correctly 1`] = `
+.c0 {
+  padding: 15px;
+  width: 50%;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  Content
+</div>
+`;
+
+exports[`StoryItem styles Title renders correctly 1`] = `
+.c0 {
+  color: #e85a4f;
+  font-size: 1.125rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: Poppins,sans-serif;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<a
+  class="c0"
+>
+  Content
+</a>
+`;
